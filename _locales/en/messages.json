@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Image ZIP Collector"
+  },
+  "extDesc": {
+    "message": "Hold O and click images to collect them across pages, then download them all in one ZIP."
+  },
+  "cmdDownload": {
+    "message": "Download the selected images as a ZIP"
+  },
+  "noImage": {
+    "message": "No image under the cursor"
+  },
+  "added": {
+    "message": "✔ Added ($p1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removed": {
+    "message": "✖ Removed ($p1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "preparing": {
+    "message": "Preparing ZIP…"
+  },
+  "zipReady": {
+    "message": "ZIP ready: $p1$ images ($p2$ from the page)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "failedSuffix": {
+    "message": ", $p1$ failed",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "Error: $p1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothingSelected": {
+    "message": "No images selected"
+  },
+  "alreadyRunning": {
+    "message": "A download is already in progress"
+  },
+  "zipFailed": {
+    "message": "Could not create the ZIP"
+  },
+  "noneDownloaded": {
+    "message": "None of the images could be downloaded ($p1$ failed)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "menuToggle": {
+    "message": "Add to / remove from ZIP selection"
+  },
+  "menuDownload": {
+    "message": "Download selection as ZIP"
+  },
+  "popupEmpty": {
+    "message": "No images selected yet."
+  },
+  "popupClear": {
+    "message": "Clear"
+  },
+  "popupDownload": {
+    "message": "Download ZIP"
+  },
+  "popupClearAfter": {
+    "message": "Clear the list after downloading"
+  },
+  "popupWorking": {
+    "message": "Downloading images and building the ZIP…"
+  },
+  "popupConfirmClear": {
+    "message": "Clear the list of selected images?"
+  },
+  "popupRemove": {
+    "message": "Remove"
+  },
+  "popupEmbedded": {
+    "message": "(embedded image)"
+  },
+  "helpClick": {
+    "message": "+ left click on an image: add / remove"
+  },
+  "helpRight": {
+    "message": "+ right click: download ZIP"
+  },
+  "helpShortcut": {
+    "message": ": download ZIP · also in the right-click menu"
+  }
+}

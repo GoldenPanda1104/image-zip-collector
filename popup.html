@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body { width: 340px; margin: 0; font: 13px/1.4 system-ui, sans-serif; color: #111827; }
+  header { padding: 10px 12px; border-bottom: 1px solid #e5e7eb; display: flex; justify-content: space-between; align-items: center; }
+  h1 { font-size: 14px; margin: 0; }
+  #count { color: #16a34a; font-weight: 600; }
+  #grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; padding: 10px 12px; max-height: 300px; overflow-y: auto; }
+  .cell { position: relative; aspect-ratio: 1; border-radius: 6px; overflow: hidden; background: #f3f4f6; }
+  .cell img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .cell button { position: absolute; top: 2px; right: 2px; width: 20px; height: 20px; border: 0; border-radius: 50%;
+    background: rgba(0,0,0,.65); color: #fff; cursor: pointer; font-size: 12px; line-height: 20px; padding: 0; display: none; }
+  .cell:hover button { display: block; }
+  #empty { padding: 16px 12px; color: #6b7280; }
+  .actions { padding: 10px 12px; border-top: 1px solid #e5e7eb; display: flex; gap: 8px; }
+  .actions button { flex: 1; padding: 8px; border-radius: 6px; border: 1px solid #d1d5db; background: #fff; cursor: pointer; font: inherit; }
+  #download { background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 600; }
+  button:disabled { opacity: .5; cursor: default; }
+  label { display: flex; gap: 6px; align-items: center; padding: 0 12px 8px; color: #374151; }
+  #status { padding: 0 12px 8px; color: #374151; min-height: 1em; }
+  .help { padding: 8px 12px 10px; background: #f9fafb; color: #6b7280; font-size: 12px; border-top: 1px solid #e5e7eb; }
+  kbd { background: #fff; border: 1px solid #d1d5db; border-radius: 3px; padding: 0 4px; font-size: 11px; }
+</style>
+</head>
+<body>
+  <header><h1>Image ZIP Collector</h1><span id="count">0</span></header>
+  <div id="grid"></div>
+  <div id="empty" data-i18n="popupEmpty"></div>
+  <div class="actions">
+    <button id="clear" data-i18n="popupClear"></button>
+    <button id="download" data-i18n="popupDownload"></button>
+  </div>
+  <label><input type="checkbox" id="clearAfter"> <span data-i18n="popupClearAfter"></span></label>
+  <div id="status"></div>
+  <div class="help">
+    <kbd>O</kbd> <span data-i18n="helpClick"></span><br>
+    <kbd>O</kbd> <span data-i18n="helpRight"></span><br>
+    <kbd>Alt</kbd>+<kbd>Shift</kbd>+<kbd>Z</kbd><span data-i18n="helpShortcut"></span>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "extName": {
+    "message": "Image ZIP Collector"
+  },
+  "extDesc": {
+    "message": "Mantén O y haz clic en imágenes para juntarlas entre páginas y descárgalas todas en un ZIP."
+  },
+  "cmdDownload": {
+    "message": "Descargar las imágenes seleccionadas en un ZIP"
+  },
+  "noImage": {
+    "message": "No hay imagen bajo el cursor"
+  },
+  "added": {
+    "message": "✔ Añadida ($p1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "removed": {
+    "message": "✖ Quitada ($p1$)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "preparing": {
+    "message": "Preparando ZIP…"
+  },
+  "zipReady": {
+    "message": "ZIP listo: $p1$ imágenes ($p2$ desde la página)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      },
+      "p2": {
+        "content": "$2"
+      }
+    }
+  },
+  "failedSuffix": {
+    "message": ", $p1$ fallidas",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "errorPrefix": {
+    "message": "Error: $p1$",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "nothingSelected": {
+    "message": "No hay imágenes seleccionadas"
+  },
+  "alreadyRunning": {
+    "message": "Ya hay una descarga en curso"
+  },
+  "zipFailed": {
+    "message": "Fallo al crear el ZIP"
+  },
+  "noneDownloaded": {
+    "message": "No se pudo descargar ninguna imagen ($p1$ fallidas)",
+    "placeholders": {
+      "p1": {
+        "content": "$1"
+      }
+    }
+  },
+  "menuToggle": {
+    "message": "Añadir/quitar de la selección ZIP"
+  },
+  "menuDownload": {
+    "message": "Descargar selección en ZIP"
+  },
+  "popupEmpty": {
+    "message": "No hay imágenes seleccionadas."
+  },
+  "popupClear": {
+    "message": "Vaciar"
+  },
+  "popupDownload": {
+    "message": "Descargar ZIP"
+  },
+  "popupClearAfter": {
+    "message": "Vaciar la lista tras descargar"
+  },
+  "popupWorking": {
+    "message": "Descargando imágenes y armando el ZIP…"
+  },
+  "popupConfirmClear": {
+    "message": "¿Vaciar la lista de imágenes seleccionadas?"
+  },
+  "popupRemove": {
+    "message": "Quitar"
+  },
+  "popupEmbedded": {
+    "message": "(imagen embebida)"
+  },
+  "helpClick": {
+    "message": "+ clic izq. sobre una imagen: añadir / quitar"
+  },
+  "helpRight": {
+    "message": "+ clic der.: descargar ZIP"
+  },
+  "helpShortcut": {
+    "message": ": descargar ZIP · también en el menú contextual"
+  }
+}
